@@ -32,7 +32,7 @@ tMatriz Somar(tMatriz mat1, tMatriz mat2){
     }
 }
 
-tMatriz Subtrai(tMatriz mat1, tMatriz mat2){
+tMatriz Subtrair(tMatriz mat1, tMatriz mat2){
     if(mat1.l== mat2.l && mat1.c== mat2.c){
         tMatriz mat;
         mat.l = mat1.l;

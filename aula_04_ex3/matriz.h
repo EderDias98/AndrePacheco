@@ -2,6 +2,7 @@
 #define _MATRIZ_
 #define TAM_MAX 100
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct{
     int mat[TAM_MAX][TAM_MAX];
@@ -12,6 +13,11 @@ typedef struct{
 tMatriz IniciarMatriz(int l, int c);
 
 void ImprimirMatriz(tMatriz mat);
+tMatriz Somar(tMatriz mat1, tMatriz mat2);
+tMatriz Subtrair(tMatriz mat1, tMatriz mat2);
+tMatriz Multiplicar(tMatriz mat1, tMatriz mat2);
+tMatriz MultiplicarEscalar(tMatriz mat, int c);
+tMatriz Transposta(tMatriz mat);
   
 
 // // Crie um programa em C para manipulação de matrizes M x N. Tanto o tamanho e a quantidade de matrizes devem ser definidas pelo usuário.
